@@ -28,7 +28,7 @@
 
 ## Live site 
 
-Live : 'https://gladyskyenze.github.io/portfolio/'
+Live : 'https://gladyskyenze.github.io/akanbirthnames/'
 
 
 
