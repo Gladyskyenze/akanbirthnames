@@ -39,7 +39,7 @@ body{
     padding: 5px 15px;
     margin-left: 20px;
    display: inline-block;
-    float: left;
+    /*float: left;*/
 }
 .title{
     font-size: 20px;
@@ -63,7 +63,6 @@ input[type=text]{
 }
 input[type=button]{
     width: 100px;
-    margin-left: 35%;
     margin-top: 50px;
     outline: none;
     border: none;
@@ -72,7 +71,11 @@ input[type=button]{
     padding 15 px 16px;
     color: black;
     font-size: 12px;
+    
 }
 input[type=button]:hover{
     background-color: burlywood;
+}
+#result{
+    text-align: center;
 }

@@ -1,9 +1,10 @@
 
-function getAkanName () {
-    let yearOfBirth = document.getElementById("year-input").value;
-    let monthOfBirth = Number(document.getElementById("month-input").value);
-    let dayOfBirth = Number(document.getElementById("day-input").value);
-    let genders = document.getElementsByName("gender");
+function getAkanames() {
+    var d1 = document.getElementById("date").value;
+    var m1 = document.getElementById("month").value;
+    var y1 = document.getElementById("year").value;
+    var genders = document.getElementById("gender").value;
+    
   
     // function to get gender
     function getGender () {
@@ -14,7 +15,7 @@ function getAkanName () {
       }
     }
   
-    let myGenderValue = getGender();
+    var myGenderValue = getGender();
     console.log(myGenderValue);
   
     // validation functions
