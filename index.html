@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names</title>
-    <link rel="stylesheet" href="/css/styles.css">
+   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -19,14 +19,14 @@
             
             <div class="block">
                 <p class="title">Day</p>
-                <input type="text" name="date" id="datee" placeholder="dd"  required>
+                <input type="text" name="date" id="day" placeholder="dd"  required>
             
             
                 <p class="title">Month</p>
-                <input type="text" name="month" id="monthh" placeholder="mm"  required>
+                <input type="text" name="month" id="month" placeholder="mm"  required>
            
                 <p class="title">Year</p>
-                <input type="text" name="year" id="yearr" placeholder="yyyy" required>
+                <input type="text" name="year" id="year" placeholder="yyyy" required>
             </div>
             <label for="gender">
                 <p>Select your gender: </p>
@@ -35,12 +35,15 @@
                 Female
                 <input id="femalee" type="radio" name="gender" value="female" required>
             </label>
-            <button id="btn1">submit</button>
-            <button id="btn2">cancel</button>
+            <button  onclick="displaynames()">submit</button>
+            <button>cancel</button>
+            <hr>
+           <p id="result"></p>
+            
         </form>
     </div>
 
-    <script src="/jscript/script.js"></script>
+    <script src="./jscript/script.js"></script>
 </body>
 
 </html>
