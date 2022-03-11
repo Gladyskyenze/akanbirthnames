@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/styles.css">
-      <title>Akan Names</title>
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
@@ -23,18 +23,18 @@
                     filling the form below and clicking the generate
                     name button.
                 </p>
-                <form class="myform" onsubmit="return getAkanames()">
+                <form class="myform" onsubmit="return displaynames()">
                 <div class="block">
                     <p class="title">Day</p>
-                    <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
+                    <input type="text" name="date" id="datee" placeholder="dd"  required>
                 </div>
                 <div class="block">
                     <p class="title">Month</p>
-                    <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+                    <input type="text" name="month" id="monthh" placeholder="mm"  required>
                 </div>
                 <div class="block">
                     <p class="title">Year</p>
-                    <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
+                    <input type="text" name="year" id="yearr" placeholder="yyyy" required>
                 </div>
             </div>
             <label for="gender">
@@ -45,13 +45,11 @@
                 <input id="female-input" type="radio" name="gender" value="female" required>
             </label>
 
-            <!-- <form action="">
+            <form action="">
                 <div class="base">
                     <input type="button" name="generate name" value="Generate name" onclick="" />
                 </div>
-            </form> -->
-            <br>
-            <button onclick="displayname()">displayname</button>
+            </form>
         </form>
             <!-- this clears the text boxes once the button is clicked--> 
             <form onsubmit="return clearInput()">
@@ -59,7 +57,7 @@
             </form>
         </form>
     </div>
-    <h4 id=display-name><strong>Your Akan name will be displayed below:</strong></h4>
+    <h4 id=output><strong>Your Akan name will be displayed below:</strong></h4>
     <p id="result"></p>
     </div>
     </div>
