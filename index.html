@@ -12,30 +12,21 @@
 <body>
     <div class="container">
         <form>
-            <div class="base">
-                <h3> The Akan name Generator! </h3>
-                <p> This is a web application that takes
-                    your birthday details and calculates the day of
-                    the week you were born and then depending on your
-                    gender, outputs your Akan Name. </p>
-                <p>
-                    To find out what your Akan name is, proceed to
-                    filling the form below and clicking the generate
-                    name button.
-                </p>
-                <form class="myform" onsubmit="return displaynames()">
-                <div class="block">
-                    <p class="title">Day</p>
-                    <input type="text" name="date" id="datee" placeholder="dd"  required>
-                </div>
-                <div class="block">
-                    <p class="title">Month</p>
-                    <input type="text" name="month" id="monthh" placeholder="mm"  required>
-                </div>
-                <div class="block">
-                    <p class="title">Year</p>
-                    <input type="text" name="year" id="yearr" placeholder="yyyy" required>
-                </div>
+            <h4>The Akan name Generator</h4>
+            <p>This website will display your Akan name after it calculates which day of the week you were born</p>
+            <br>
+            <p>Write your date of birth</p>
+            
+            <div class="block">
+                <p class="title">Day</p>
+                <input type="text" name="date" id="datee" placeholder="dd"  required>
+            
+            
+                <p class="title">Month</p>
+                <input type="text" name="month" id="monthh" placeholder="mm"  required>
+           
+                <p class="title">Year</p>
+                <input type="text" name="year" id="yearr" placeholder="yyyy" required>
             </div>
             <label for="gender">
                 <p>Select your gender: </p>
@@ -44,23 +35,11 @@
                 Female
                 <input id="femalee" type="radio" name="gender" value="female" required>
             </label>
+            <button id="btn1">submit</button>
+            <button id="btn2">cancel</button>
+        </form>
+    </div>
 
-            <form action="">
-                <div class="base">
-                    <input type="button" name="generate name" value="Generate name" onclick="" />
-                </div>
-            </form>
-        </form>
-            <!-- this clears the text boxes once the button is clicked--> 
-            <form onsubmit="return clearInput()">
-                <input class="clear" type="submit" value="Clear">
-            </form>
-        </form>
-    </div>
-    <h4 id=output><strong>Your Akan name will be displayed below:</strong></h4>
-    <p id="result"></p>
-    </div>
-    </div>
     <script src="/jscript/script.js"></script>
 </body>
 

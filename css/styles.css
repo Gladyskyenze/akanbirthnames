@@ -23,7 +23,7 @@ body{
     display: block;
     float: none;
 }
-.base h3{
+.base h4{
     font-size: 28px;
     text-align: center;
     font-family: sans-serif;
@@ -33,49 +33,4 @@ body{
     color: navajowhite;
     background: white;
     padding: 6px;
-}
-.block{
-    width: 135px;
-    padding: 5px 15px;
-    margin-left: 20px;
-   display: inline-block;
-    /*float: left;*/
-}
-.title{
-    font-size: 20px;
-    text-align: left;
-    font-family: sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.5px;
-    color: black;
-    word-spacing: 2.2px;
-}
-input[type=text]{
-    width: 140px;
-    margin: auto;
-    outline: none;
-    min-height: 50px;
-    border: 2px solid black;
-    border-radius: 2px;
-    color:black;
-    font-size: 15px;
-    padding: 10px;
-}
-input[type=button]{
-    width: 100px;
-    margin-top: 50px;
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    background-color:rgb(80, 18, 138) 
-    padding 15 px 16px;
-    color: black;
-    font-size: 12px;
-    
-}
-input[type=button]:hover{
-    background-color: burlywood;
-}
-#result{
-    text-align: center;
 }
