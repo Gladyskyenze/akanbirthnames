@@ -4,4 +4,4 @@ function displaynames(){
   let yearr = document.getElementById("yearr").ariaValueMax;
   let gender = document.getElementById("gender").ariaValueMax;
 }
-  document.write("results")
+  document.write("result");
