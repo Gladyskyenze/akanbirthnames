@@ -28,14 +28,17 @@
                 <p class="title">Year</p>
                 <input type="text" name="year" id="year" placeholder="yyyy" required>
             </div>
-            <label for="gender">
+            <label id="gender">
                 <p>Select your gender: </p>
                 Male
                 <input id="malee" type="radio" name="gender" value="male" required>
                 Female
                 <input id="femalee" type="radio" name="gender" value="female" required>
             </label>
+            <input type="text" id ="results">
+            <br>
             <button  onclick="displaynames()">submit</button>
+           <br>
             <button>cancel</button>
             <hr>
            <p id="result"></p>
